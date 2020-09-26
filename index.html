@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--trocar para o do Bootstrap -->
+    <title>Aula Bootstrap com HTML</title>
+    <link rel="shortcut icon" href="img/the-flash-sign.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css"> 
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    </head>
+<body>
+  
+    <div class="jumbotron jumbbotron-fluid bg-header text-center text-white text-header">
+        <h1 class="display-4">Milleny Souza</h1>
+        <p class="lead">Boostrap </p>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradiente fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img src="img/the-flash-sign.png" alt="Logo" width="40" height="40">
+           </a>
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" aria-controls="menu" aria-expanded="false" aria-label=Meu Menu>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Item 1 </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" >Item 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 bg-gradiente text-white mt-3 mt-sm-0"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit quidem itaque incidunt, odit corporis vitae qui adipisci repellendus maiores laudantium modi molestias fugiat perferendis pariatur, explicabo repudiandae. Soluta, eveniet.
+            </div>
+            <!--mt-3 (margin top p/ pc) mt-sm-0, para os 3-->
+            <div class="col-12 col-sm-6 col-md-4 bg-gradiente text-white mt-3 mt-sm-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit quidem itaque incidunt, odit corporis vitae qui adipisci repellendus maiores laudantium modi molestias fugiat perferendis pariatur, explicabo repudiandae. Soluta, eveniet.
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 bg-gradiente text-white mt-3 mt-sm-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit quidem itaque incidunt, odit corporis vitae qui adipisci repellendus maiores laudantium modi molestias fugiat perferendis pariatur, explicabo repudiandae. Soluta, eveniet.
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/jquery-3.4.1.js"></script>
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.js"></script>
+    
+    </body>
+</html>
